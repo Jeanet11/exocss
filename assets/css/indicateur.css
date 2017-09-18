@@ -1,7 +1,24 @@
+.indicateur {
+	display: flex;
+}
+
 .indicateur li{
+
     background:#bfd70e;
     border-radius:50%;
     height:100px;
     width:100px;
     border:2px solid #679403;
+    list-style-type: none;
+    margin: 1px;
+
 }
+
+.indicateur li:nth-child(0n+4), li:nth-child(0n+7), li:nth-child(0n+12){
+background: red;
+}
+
+/*.indicateur li:nth-child(2n) {
+	color: red;
+} 
+*/
